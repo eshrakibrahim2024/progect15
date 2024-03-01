@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: 3000px;
+}
+header{
+    display: flex;
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150p@x ;
+}
+
+.logo{
+color: rgb(14, 154, 220);
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+}
+nav a{
+    color: rgba(15, 176, 245, 0.893);
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+nav a:hover{
+    color: rgb(245, 23, 189);
+    font-weight: 900px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    background-image: url(css/images/images.jpg);
+    background-repeat :no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+section{
+    padding: 100px 150px;
+
+}
+.content h2{
+    color: rgb(149, 9, 9);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.content h2 span{
+    color: rgb(184, 73, 9);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.content h3{
+    color:rgb(198, 39, 39);
+    font-size:60px ;
+    font-weight:bold ;
+    
+}
+.contact-me{
+    display: inline-block;
+    color:rgb(103, 8, 21);
+    background-color: rgb(232, 162, 150);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    transition: 0.5s ease;
+
+}
+ .contact-me:hover{
+        background-color: rgb(225, 77, 19);
+        transform: scale(1.1);
+ }
+ .social  a{
+    color:rgb(116, 9, 9);
+    font: size 30px;
+    padding-right: 20px;
+    
+ }
+ .our-services{
+    text-align: center;
+background-color: #eee;
+ }
+
+ .our-services h2 {
+    color: red;
+    font-size: 35px;
+ }
+ .our-services p {
+    color: rgb(92, 11, 11);
+    font-size: 25px;
+    margin-bottom: 35px;
+
+ }
+
+    
+
+ 
+ 
+ .Services{
+    display: flex;
+    text-align: center;
+
+ }
+ .box{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 33%;
+   
+    margin:10px ;
+    border-radius: 10px;
+    border: 1px solid #ead8d8;
+    cursor: pointer; 
+transition: all 0.5s ease;
+ }
+ .box:hover{
+    background-color: rgb(243, 247, 249);
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(29, 125, 243);
+    transform: scale(1.1);
+
+ }
+ .box h3{
+    font-size: 30px;
+ }
+
+ .icon{
+    color: red;
+    font-size: 40px;
+ }
+ 
+ .supply {
+    text-align: center;
+    background-color: #eee;
+ }
+ .supply h2{
+    color: red;
+    font-size: 35px;
+
+ }
+
+ .supply p{
+    color: rgb(92, 11, 11);
+    font-size: 25px;
+    margin-bottom: 35px;
+ }
+
+
+ .photos{
+    display: flex;
+
+ }
+ .photo img{
+    width: 100%;
+    padding:5px ;
+    margin: 20;
+ }
+
+.contact-us{
+   background-color: #eee;
+   text-align: center;
+
+}
+
+
+.contact-us h2{
+   color: red;
+   font-size: 35px;
+
+}
+
+.contact-us p{
+   color: rgb(92, 11, 11);
+   font-size: 25px;
+   margin-bottom: 35px;
+}
+.form-input.m{
+   vertical-align: top;
+}
+.contact-area{
+   width: 100%;
+   background-color: rgb(208, 224, 236);
+   margin: 20px auto;
+   padding: 35px;
+   border: 1px solid #eee;
+   border-radius:10px ;
+  
+}
+
+
+.form-input input{
+   width: 60%;
+   height:40px ;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   border:1px solid #ead8d8;
+
+
+}
+
+.form-input textarea{
+   width: 60%;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   border:1px solid #ead8d8;
+}
+.send{
+   padding: 10px 20px;
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+   border: none;
+  cursor:pointer ;
+
+}
+.send:hover{
+   background-color: rgb(235, 74, 20);
+
+}
+footer{
+   border-top: 5px solid red;
+   background-color: rgb(204, 208, 208);
+   padding-top: 50px;
+   text-align: center;
+
+}
+
+footer p{
+color: white;
+font-size: 23px;
+
+}
+
